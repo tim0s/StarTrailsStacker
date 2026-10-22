@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Star Trail Stacker for Mac</title>
+<meta name="description" content="Star Trail Stacker turns a night of sky photos into a finished star-trail image. Planes, satellites and the glow of nearby towns are removed automatically.">
+<meta property="og:title" content="Star Trail Stacker for Mac">
+<meta property="og:description" content="Star-trail images, automated. Planes, satellites and the glow of nearby towns are removed for you.">
+<meta property="og:image" content="images/social.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#07090f">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="icon.png" alt=""><span>Star Trail Stacker</span></a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <img src="images/hero.webp" alt="Star trails circling the North Star above a grassy hill with a tree and a wooden hut" fetchpriority="high">
+    <div class="wrap">
+      <img class="hero-icon" src="icon.png" alt="">
+      <h1>Star-trail images, automated.</h1>
+      <p class="lead">Star Trail Stacker turns a night of sky photos into a finished star-trail image. It removes planes, satellites and the glow of nearby towns for you, and guides you through the rest.</p>
+      <div class="cta-row">
+        <span class="badge">Coming soon to the Mac App Store</span>
+        <span class="cta-note">For Mac · macOS 15 or later</span>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap center">
+      <p class="eyebrow">From folder to final image</p>
+      <h2>One night. 161 photos. One picture.</h2>
+      <p class="section-lead">Open the folder from your camera. Star Trail Stacker picks the night’s frames, cleans them and stacks them into one image. It also makes a timelapse, and a video of the trails growing across the sky.</p>
+      <div class="media-frame">
+        <video src="images/growing-trails.mp4" poster="images/growing-trails-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Video: the star trails grow across the sky over the night, then fade into the finished image"></video>
+      </div>
+      <p class="caption">The growing-trails video, made by the app from 161 photos taken between 18:57 and 20:44 above Hirzel, Switzerland.</p>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <p class="eyebrow">What it does for you</p>
+      <h2>The hours of retouching, done for you.</h2>
+      <p class="section-lead">Stacking star trails by hand means hours in a photo editor: lining up layers, painting out every plane and satellite, masking the horizon. Drag the sliders to see what Star Trail Stacker does on its own.</p>
+
+      <div class="compare-grid">
+        <div class="compare-item">
+          <div class="compare-text">
+            <h3>Planes and satellites, gone.</h3>
+            <p>On this night they crossed the sky in 141 of the 161 photos. Star Trail Stacker finds them in every photo and fills in the sky from the neighbouring photos.</p>
+            <p>Nothing is painted in by hand, and you can check every removed trail.</p>
+          </div>
+          <div class="compare" style="--pos: 50%">
+            <img src="images/trails-before.webp" alt="Star trails crossed by dotted lines from planes and satellites" width="1800" height="1200" loading="lazy">
+            <div class="after"><img src="images/trails-after.webp" alt="The same star trails with the plane and satellite lines removed" width="1800" height="1200" loading="lazy"></div>
+            <span class="tag before">Before</span><span class="tag after-tag">After</span>
+            <div class="divider"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Compare before and after removing planes and satellites">
+            <div class="knob" aria-hidden="true">↔</div>
+          </div>
+        </div>
+
+        <div class="compare-item">
+          <div class="compare-text">
+            <h3>The city’s glow, removed.</h3>
+            <p>Light from nearby towns turns the horizon orange. Star Trail Stacker separates the landscape from the sky, removes the glow and keeps the stars.</p>
+          </div>
+          <div class="compare" style="--pos: 50%">
+            <img src="images/glow-before.webp" alt="Star trails above a hill with a bright orange glow on the horizon" width="2000" height="800" loading="lazy">
+            <div class="after"><img src="images/glow-after.webp" alt="The same scene with the horizon glow removed" width="2000" height="800" loading="lazy"></div>
+            <span class="tag before">Before</span><span class="tag after-tag">After</span>
+            <div class="divider"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Compare before and after removing the sky glow">
+            <div class="knob" aria-hidden="true">↔</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Guided, step by step</p>
+      <h2>Every step does its work, then shows you the result.</h2>
+      <p class="section-lead">Follow the steps in the sidebar. Adjust what you like, or just click Next. You can always go back and change something.</p>
+      <div class="steps-layout">
+        <div class="media-frame">
+          <img src="images/app-develop.webp" alt="The Star Trail Stacker window on the Develop step, with a before/after slider on the stacked image" width="2000" height="1250" loading="lazy">
+        </div>
+        <ol class="steps">
+          <li><h3>Frames</h3><p>Picks the night’s photos and leaves out test shots and frames taken after the camera was bumped.</p><span class="auto">AUTOMATIC</span></li>
+          <li><h3>Preview</h3><p>A quick star-trail preview of the whole night.</p><span class="auto">AUTOMATIC</span></li>
+          <li><h3>Foreground &amp; Sky</h3><p>Separates the landscape from the sky. Fix any spot with a brush.</p><span class="auto">AUTOMATIC</span></li>
+          <li><h3>Develop</h3><p>White balance and exposure for the sky, the landscape and the stars, each on its own.</p></li>
+          <li><h3>Sky Glow</h3><p>Removes the glow of nearby towns and keeps the stars.</p><span class="auto">AUTOMATIC</span></li>
+          <li><h3>Clean Frames</h3><p>Finds and removes planes and satellites in every photo.</p><span class="auto">AUTOMATIC</span></li>
+          <li><h3>Stack</h3><p>Smooth trails and an evenly lit landscape, saved as a 16-bit TIFF and a JPEG.</p><span class="auto">AUTOMATIC</span></li>
+          <li><h3>Video</h3><p>A timelapse and growing trails, for YouTube, Reels or Shorts.</p></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Made for real nights</p>
+      <h2>Details that make the picture.</h2>
+      <div class="cards">
+        <div class="card"><div class="icon">✦</div><h3>Stars keep their colour</h3><p>Develop the sky, the landscape and the stars separately, so the stars stay warm and white under a deep blue sky.</p></div>
+        <div class="card"><div class="icon">⛰</div><h3>An evenly lit landscape</h3><p>The landscape comes from the most typical photos of the night, so a car’s headlights sweeping across the hill don’t end up in the picture.</p></div>
+        <div class="card"><div class="icon">◐</div><h3>Smooth trails</h3><p>Star Trail Stacker knows how far the stars moved between photos and fills the short gaps, so the trails don’t look dotted.</p></div>
+        <div class="card"><div class="icon">▶</div><h3>Timelapse and growing trails</h3><p>In the original shape, 16:9, 9:16 for Reels and Shorts, or square, in HD or 4K.</p></div>
+        <div class="card"><div class="icon">↺</div><h3>Come back any time</h3><p>Pause and continue later; finished work is kept. Save a project to return to a night months from now and get the same result.</p></div>
+        <div class="card"><div class="icon">🔒</div><h3>Private</h3><p>Everything happens on your Mac. No account, no tracking, no data collected. <a href="privacy.html">Privacy policy</a></p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="closing">
+    <div class="wrap">
+      <img src="icon.png" alt="">
+      <h2>Star Trail Stacker for Mac</h2>
+      <p>Reads RAW files from most cameras, as well as TIFF and JPEG.</p>
+      <div class="cta-row">
+        <span class="badge">Coming soon to the Mac App Store</span>
+        <a class="cta-note" href="support.html">Questions? Support →</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Timo Schneider</span>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </div>
+</footer>
+
+<script>
+  // before/after sliders: the range input sets the split
+  for (const c of document.querySelectorAll(".compare")) {
+    const input = c.querySelector("input");
+    const set = () => c.style.setProperty("--pos", input.value + "%");
+    input.addEventListener("input", set);
+    set();
+  }
+  // no autoplaying video for visitors who ask for reduced motion
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    for (const v of document.querySelectorAll("video[autoplay]")) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; }
+  }
+</script>
+</body>
+</html>
